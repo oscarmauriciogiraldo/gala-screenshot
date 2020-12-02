@@ -63,6 +63,7 @@
         <div id="contenedor">
         <div class="row"> <div class="contFondo" id="contFondo"></div>
             <div class="continfo">
+
                 <button type="button" id="boton" class="btn btn-light">activar camara</button>
                 <video autoplay id="video" class="camara"></video>
                 <canvas id="canvas" class="canvas" width="200" height="150"></canvas>
@@ -111,13 +112,9 @@
             // =============== Activar camara ===============
             // ==============================================
 
-            let video = document.querySelector("#video");
-            document.querySelector("#boton").addEventListener("click", function(ev){
-                navigator.mediaDevices.getUserMedia({audio: false, video: true})
-                .then(record)
-                .catch(err => console.log(err));
 
-            })
+            
+            
             function record(stream){
                 video.srcObject = stream;
             }
