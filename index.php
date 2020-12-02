@@ -61,7 +61,7 @@
     <body>
 
         <div id="contenedor">
-            <div class="contFondo" id="contFondo"></div>
+        <div class="row"> <div class="contFondo" id="contFondo"></div>
             <div class="continfo">
                 <button type="button" id="boton" class="btn btn-light">activar camara</button>
                 <video autoplay id="video" class="camara"></video>
@@ -70,7 +70,9 @@
             </div>
             <img src="./fondoScreenshot.png" id="img" style="display: none;">
         </div>
-        <input type="hidden" id="imgFondoBase64" value="<?php echo $_SESSION["FONDO"]; ?>">
+        <input type="hidden" id="imgFondoBase64" value="<?php echo $_SESSION["FONDO"]; ?>"></div>
+
+           
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
