@@ -10,6 +10,8 @@
     <head>
         <meta charset="utf-8">
         <title>Screenshot</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
         <style>
             * {
                 margin: 0px;
@@ -61,10 +63,10 @@
         <div id="contenedor">
             <div class="contFondo" id="contFondo"></div>
             <div class="continfo">
-                <button type="button" id="boton">activar camara</button>
+                <button type="button" id="boton" class="btn btn-light">activar camara</button>
                 <video autoplay id="video" class="camara"></video>
                 <canvas id="canvas" class="canvas" width="200" height="150"></canvas>
-                <button id="btnTomarFoto" class="btnTomarFoto">Tomar screenshot y descargar</button>
+                <button id="btnTomarFoto" class="btnTomarFoto btn btn-light">Tomar screenshot y descargar</button>
             </div>
             <img src="./fondoScreenshot.png" id="img" style="display: none;">
         </div>
