@@ -5,6 +5,7 @@
     convertirImgBase64();
 
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -61,7 +62,8 @@
     <body>
 
         <div id="contenedor">
-        <div class="row"> <div class="contFondo" id="contFondo"></div>
+        <div class="row"> 
+        <div class="contFondo" id="contFondo"></div>
             <div class="continfo">
 
                 <button type="button" id="boton" class="btn btn-light">activar camara</button>
@@ -78,6 +80,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/canvas2image@1.0.5/canvas2image.min.js"></script>
+<<<<<<< HEAD
         <script>
 
             // =============================================================
@@ -129,6 +132,10 @@
             });
 
         </script>
+=======
+        
+        <script src="js/main.js"></script>
+>>>>>>> f566735eb8899e5c90913b291a9043fffd724d43
 
     </body>
 </html>
