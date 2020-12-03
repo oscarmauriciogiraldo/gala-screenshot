@@ -28,9 +28,9 @@
                 <button type="button" id="boton" class="btn-none">activar camara</button>
                 <video autoplay id="video" class="camara"></video>
                 <canvas id="canvas" class="canvas" width="200" height="150"></canvas>
-                <button id="btnTomarFoto" class="btnTomarFoto btn btn-light">Tomar screenshot y descargar</button>
+                <button id="btnTomarFoto" class="btnTomarFoto"></button>
             </div>
-            <img src="./fondo.png" id="img" style="display: none;">
+            <img src="img/fondo.png" id="img" style="display: none;">
         </div>
     </div>
     <input type="hidden" id="imgFondoBase64" value="<?php echo $_SESSION["FONDO"]; ?>">
