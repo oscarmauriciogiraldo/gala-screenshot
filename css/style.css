@@ -28,8 +28,8 @@ div[class|="col"]{
     margin-left: 54vw;
     margin-top: 30vh;
     z-index: 999;
-    width: 180px;
-    height: 200px;
+    width: 230px;
+    height: 250px;
     display: flex;
 }
 
