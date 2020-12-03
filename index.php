@@ -25,15 +25,16 @@
         <div class="container">
 
             <!--*******************grid 3X3******************-->
-            <!--fila-1-->
-            <div class="row">
+            <!--fila-1
+            <div class="row ">
                 <div class="col-4">col-vacia</div>
                 <div class="col-4">col-vacia</div>
                 <div class="col-4">col-vacia</div>
             </div>
+            -->
 
             <!--fila-2-->
-            <div class="row">
+            <div class="row fila-row">
                 <div class="col-4">col-vacia</div>
                 <div class="col-4">
                     <!--camara-->
@@ -45,7 +46,7 @@
             </div>
 
             <!--fila-3-->
-            <div class="row">
+            <div class="row fila-row">
                 <div class="col-4">col-vacia</div>
                 <div class="col-4">
                     <button id="btnTomarFoto" class="btnTomarFoto">
