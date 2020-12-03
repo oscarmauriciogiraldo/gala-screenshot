@@ -1,11 +1,3 @@
-<?php
-
-    @session_start();
-    include "./encodeBase64.php";
-    convertirImgBase64();
-
-?>
-
 <!DOCTYPE html>
 <html lang="es">
     <head>
@@ -30,10 +22,10 @@
                 <canvas id="canvas" class="canvas" width="200" height="150"></canvas>
                 <button id="btnTomarFoto" class="btnTomarFoto"></button>
             </div>
-            <img src="./img/fondo.png" id="img" style="display: none;">
+            <img src="img/fondo.png" id="img" style="display: none;">
         </div>
     </div>
-    <input type="hidden" id="imgFondoBase64" value="<?php echo $_SESSION["FONDO"]; ?>">
+    <!--<input type="hidden" id="imgFondoBase64" value="<?php echo $_SESSION["FONDO"]; ?>">-->
 </div>
 
    
