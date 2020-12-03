@@ -48,8 +48,9 @@ div[class|="col"]{
     margin-top: 35vh;
 }
 
-.btnTomarFoto{
-    background-image: url(../img/Wpadre\ png.png);
+.btnTomarFoto img{
+    width: 200px;
+    height: 200px;
 }
 .hidden {
     opacity: 0;
