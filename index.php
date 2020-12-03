@@ -61,7 +61,8 @@
     </div>
 
 
-
+  
+    <img src="img/fondo.png" id="img" style="display: none;">
     <input type="hidden" id="imgFondoBase64" value="<?php echo $_SESSION["FONDO"]; ?>">
    
 
