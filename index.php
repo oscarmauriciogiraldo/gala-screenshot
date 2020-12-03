@@ -39,6 +39,7 @@
                     <!--camara-->
                     <video autoplay id="video" class="camara"></video>
                     <!--<canvas id="canvas" class="canvas" width="200" height="150"></canvas>-->
+                    <canvas id="canvas" class="canvas" ></canvas>
                 </div>
                 <div class="col-4">col-vacia</div>
             </div>
