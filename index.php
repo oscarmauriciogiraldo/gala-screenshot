@@ -28,7 +28,8 @@
         <div class="contFondo" id="contFondo"></div>
         <!--************************************-->
 
-        <img src="./fondoScreenshot.png" id="img" style="display: none;">
+        <!--
+        <img src="./fondoScreenshot.png" id="img" style="display: none;">-->
         
         <!--contenedor-GRID-->
         <div class="container">

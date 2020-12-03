@@ -56,7 +56,7 @@
 
             window.addEventListener("load", () => {
                 var base64 = document.getElementById("imgFondoBase64").value;
-                document.getElementById("contFondo").style.backgroundImage = `url(data:image/png;base64,${base64})`;
+                document.getElementById("contenedor").style.backgroundImage = `url(data:image/png;base64,${base64})`;
             });
 
             
