@@ -3,6 +3,7 @@
     @session_start();
     include "./encodeBase64.php";
     //convertirImgBase64();
+    convertirImgBase64();
 
 ?>
 
@@ -21,10 +22,13 @@
     <!--contenedor pricipal-->
     <div id="contenedor" class="contenido-header first">
 
+        
         <!--************************************-->
         <!--*******div contenedor fondo*********-->
         <div class="contFondo" id="contFondo"></div>
         <!--************************************-->
+
+        <img src="./fondoScreenshot.png" id="img" style="display: none;">
         
         <!--contenedor-GRID-->
         <div class="container">
@@ -51,7 +55,7 @@
                     </div>
                     
                 </div>
-                <img src="./fondoScreenshot.png" id="img" style="display: none;">
+                
                 <!--tercera columna-->
                 <div class="col-4">col-vacia</div>
             </div>
@@ -70,7 +74,7 @@
 
         </div>
 
-        <img src="./fondoScreenshot.png" id="img" style="display: none;">
+        
 
     </div>
 
