@@ -9,28 +9,44 @@
     </head>
 <body>
 
-    <div id="contenedor" class="container">
-    <div class="row"> 
-        <div class="col"></div>
-    </div>
-    <div class="row">
-        <div class="col"></div>
-        <div class="col">
-        <div class="contFondo" id="contFondo"></div>
-            <div class="continfo">
-                <button type="button" id="boton" class="btn-none">activar camara</button>
-                <video autoplay id="video" class="camara"></video>
-                <canvas id="canvas" class="canvas" width="200" height="150"></canvas>
-                <button id="btnTomarFoto" class="btnTomarFoto">
-                    <img src="img/boton.png" alt="">
-                </button>
+    <!--contenedor pricipal-->
+    <div id="contenedor" class="contenido-header first">
+        
+        <!--contenedor-GRID-->
+        <div class="container">
+
+            <!--*******************grid 3X3******************-->
+            <!--fila-1-->
+            <div class="row">
+                <div class="col-4">col-vacia</div>
+                <div class="col-4">col-vacia</div>
+                <div class="col-4">col-vacia</div>
             </div>
-            <img src="img/fondo.png" id="img" style="display: none;">
+
+            <!--fila-2-->
+            <div class="row">
+                <div class="col-4">col-vacia</div>
+                <div class="col-4">
+                    <!--camara-->
+                    <video autoplay id="video" class="camara"></video>
+                    <!--<canvas id="canvas" class="canvas" width="200" height="150"></canvas>-->
+                </div>
+                <div class="col-4">col-vacia</div>
+            </div>
+
+            <!--fila-3-->
+            <div class="row">
+                <div class="col-4">col-vacia</div>
+                <div class="col-4">
+                    <button id="btnTomarFoto" class="btnTomarFoto">
+                        <img src="img/boton.png" alt="">
+                    </button>
+                </div>
+                <div class="col-4">col-vacia</div>
+            </div>
+
         </div>
-        <div class="col"></div>
-    </div>
-    <div class="row"></div>
-    <!--<input type="hidden" id="imgFondoBase64" value="<?php echo $_SESSION["FONDO"]; ?>">-->
+
     </div>
 
    
