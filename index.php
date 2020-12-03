@@ -17,7 +17,7 @@
     </head>
     <body>
 
-<div id="contenedor">
+<div id="contenedor" class="container">
 <div class="row"> 
 <div class="contFondo" id="contFondo"></div>
     <div class="continfo">
@@ -26,7 +26,7 @@
         <canvas id="canvas" class="canvas" width="200" height="150"></canvas>
         <button id="btnTomarFoto" class="btnTomarFoto btn btn-light">Tomar screenshot y descargar</button>
     </div>
-    <img src="./fondoScreenshot.png" id="img" style="display: none;">
+    <img src="./fondo.png" id="img" style="display: none;">
 </div>
 <input type="hidden" id="imgFondoBase64" value="<?php echo $_SESSION["FONDO"]; ?>"></div>
 
