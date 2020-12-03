@@ -20,6 +20,11 @@
     
     <!--contenedor pricipal-->
     <div id="contenedor" class="contenido-header first">
+
+        <!--************************************-->
+        <!--*******div contenedor fondo*********-->
+        <div class="contFondo" id="contFondo"></div>
+        <!--************************************-->
         
         <!--contenedor-GRID-->
         <div class="container">
@@ -36,14 +41,21 @@
             <!--fila-2-->
             <div class="row fila-row">
                 <div class="col-4">col-vacia</div>
+                <!--columna de la mitad-->
                 <div class="col-4">
-                    <!--camara-->
-                    <video autoplay id="video" class="camara"></video>
-                    <!--<canvas id="canvas" class="canvas" width="200" height="150"></canvas>-->
-                    <canvas id="canvas" class="canvas" ></canvas>
+                    <div class="continfo">
+                        <!--camara-->
+                        <video autoplay id="video" class="camara"></video>
+                        <!--<canvas id="canvas" class="canvas" width="200" height="150"></canvas>-->
+                        <canvas id="canvas" class="canvas" ></canvas>
+                    </div>
+                    
                 </div>
+                <img src="./fondoScreenshot.png" id="img" style="display: none;">
+                <!--tercera columna-->
                 <div class="col-4">col-vacia</div>
             </div>
+            <!--fila-2-->
 
             <!--fila-3-->
             <div class="row fila-row">
@@ -58,11 +70,13 @@
 
         </div>
 
+        <img src="./fondoScreenshot.png" id="img" style="display: none;">
+
     </div>
 
 
   
-    <img src="img/fondo.png" id="img" style="display: none;">
+    
     <input type="hidden" id="imgFondoBase64" value="<?php echo $_SESSION["FONDO"]; ?>">
    
 
