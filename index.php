@@ -13,54 +13,7 @@
         <title>Screenshot</title>
         <!-- CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-        <style>
-            * {
-                margin: 0px;
-            }
-            .contFondo {
-                position: absolute;
-                width: 100vw;
-                height: 100vh;
-                z-index: 1;
-                background-size: 100% 100%;
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-            }
-            .continfo {
-                position: absolute;
-                font-size: 20px;
-                z-index: 2;
-            }
-            .btn-none{
-             display: none;
-            }
-            .camara {
-                position: absolute;
-                margin-left: 54vw;
-                margin-top: 30vh;
-                z-index: 999;
-                width: 180px;
-                height: 200px;
-                display: flex;
-            }
-            .foto {
-                position: absolute;
-                width: 300px;
-                height: 250px;
-                margin-left: 500px;
-                background-size: 100% 100%;
-                z-index: 10;
-            }
-            .canvas {
-                position: absolute;
-                margin-left: 46vw;
-                margin-top: 35vh;
-            }
-            .hidden {
-                opacity: 0;
-            }
-        </style>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
 

@@ -16,6 +16,9 @@
     font-size: 20px;
     z-index: 2;
 }
+.btn-none{
+ display: none;
+}
 .camara {
     position: absolute;
     margin-left: 54vw;
