@@ -45,7 +45,7 @@
 
             <!--fila-2-->
             <div class="row fila-row">
-                <div class="col-4">col-vacia</div>
+                <div class="col-4"></div>
                 <!--columna de la mitad-->
                 <div class="col-4">
                     <div class="continfo">
@@ -59,7 +59,7 @@
                 </div>
                 
                 <!--tercera columna-->
-                <div class="col-4">col-vacia</div>
+                <div class="col-4"></div>
             </div>
             <!--fila-2-->
 
@@ -81,7 +81,6 @@
          <div class="button-tomar-foto">
             
             <button id="btnTomarFoto" class="btnTomarFoto">
-                
                 <img src="img/boton2.png" alt="">
                 tome aquí su foto
             </button>
