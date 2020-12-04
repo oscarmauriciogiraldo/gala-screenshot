@@ -45,21 +45,27 @@
 
             <!--fila-2-->
             <div class="row fila-row">
+                <!--<div class="col-4"></div>-->
+
                 <div class="col-4"></div>
                 <!--columna de la mitad-->
-                <div class="col-4">
+                <div class="col-8">
+                    <div class="cont-canvas">
+                        <canvas id="canvas" class="canvas" ></canvas>
+                    </div>
                     <div class="continfo">
                         <!--camara-->
                         <button type="button" id="boton" class="btn-none"></button>
                         <video autoplay id="video" class="camara"></video>
                         <!--<canvas id="canvas" class="canvas" width="200" height="150"></canvas>-->
-                        <canvas id="canvas" class="canvas" ></canvas>
+                        
                     </div>
+                    
                     
                 </div>
                 
                 <!--tercera columna-->
-                <div class="col-4"></div>
+                <!--<div class="col-4"></div>-->
             </div>
             <!--fila-2-->
 
