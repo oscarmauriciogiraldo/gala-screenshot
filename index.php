@@ -50,6 +50,7 @@
                 <div class="col-4">
                     <div class="continfo">
                         <!--camara-->
+                        <button type="button" id="boton" class="btn-none"></button>
                         <video autoplay id="video" class="camara"></video>
                         <!--<canvas id="canvas" class="canvas" width="200" height="150"></canvas>-->
                         <canvas id="canvas" class="canvas" ></canvas>
@@ -62,7 +63,7 @@
             </div>
             <!--fila-2-->
 
-            <!--fila-3-->
+            <!--fila-3
             <div class="row fila-row">
                 <div class="col-4">col-vacia</div>
                 <div class="col-4">
@@ -72,7 +73,19 @@
                 </div>
                 <div class="col-4">col-vacia</div>
             </div>
+            -->
 
+        </div>
+
+         <!--********* Boton Tomar Foto *********-->
+         <div class="button-tomar-foto">
+            
+            <button id="btnTomarFoto" class="btnTomarFoto">
+                
+                <img src="img/boton2.png" alt="">
+                tome aquí su foto
+            </button>
+            
         </div>
 
         
