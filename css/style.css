@@ -92,7 +92,7 @@ div[class|="col"]{
 .cont-canvas{
     position: absolute;
     display: flex;
-    background: red;
+    
     margin-top: 10px;
     left: 31.5%;
     z-index: 999;
