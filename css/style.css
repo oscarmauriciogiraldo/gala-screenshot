@@ -59,7 +59,8 @@ div[class|="col"]{
     height: 110px;
     font-size: 20px;
     z-index: 2;
-    left: 40%;
+    top: 10px;
+    left: 20px;
 }
 
 /*
@@ -86,22 +87,30 @@ div[class|="col"]{
     
 }
 
+/*|||||||||||||||||canvas||||||||||||||||||||||||*/
+
 .cont-canvas{
     position: absolute;
+    display: flex;
+    background: red;
     margin-top: 10px;
     left: 31.5%;
+    z-index: 999;
 }
 
 .canvas {
     /*position: left;
     display: inline-block;
     position: absolute;*/
-   
-    width: 600px;
-    height: 298px;
+    
+    display: inline-block;
+    width: 800px;
+    height: 400px;
     
     
 }
+
+/*|||||||||||||||||canvas||||||||||||||||||||||||*/
 
 /*||||||||||||||||||||||||||||||||||||||||||*/
 
