@@ -39,7 +39,7 @@ div[class|="col"]{
     height: 25vh;
     position: relative;
     background-color: rgba(255, 255, 255, 0);
-    border: solid 1px red;
+    /*border: solid 1px red;*/
 }
 
 .contenido-cam-vanv2{
@@ -47,7 +47,7 @@ div[class|="col"]{
     height: 75vh;
     position: relative;
     background-color: rgba(255, 255, 255, 0);
-    border: solid 1px red;
+    /*border: solid 1px red;*/
 }
 
 .cont-cam {
