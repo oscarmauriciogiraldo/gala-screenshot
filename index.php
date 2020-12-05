@@ -20,7 +20,8 @@
 
     
     <!--contenedor pricipal-->
-    <div id="contenedor" class="contenido-header first">
+    <!--<div id="contenedor" class="contenido-header first">-->
+    <div id="contenedor">
 
         
         <!--************************************-->
@@ -30,6 +31,8 @@
 
         <!--
         <img src="./fondoScreenshot.png" id="img" style="display: none;">-->
+
+        
         
         <!--contenedor-GRID-->
         <div class="container">
@@ -44,28 +47,30 @@
             -->
 
             <!--fila-2-->
-            <div class="row fila-row">
-                <!--<div class="col-4"></div>-->
+            <!--<div class="row  fila-row">-->
+            <div class="row align-items-center">
+                <div class="col-3">
+                 
+                </div>
+                <div class="col-6 marco">
 
-                <div class="col-4"></div>
-                <!--columna de la mitad-->
-                <div class="col-8">
+                    <!--
                     <div class="cont-canvas">
                         <canvas id="canvas" class="canvas" ></canvas>
-                    </div>
+                    </div>-->
                     <div class="continfo">
                         <!--camara-->
-                        <button type="button" id="boton" class="btn-none"></button>
+                        
                         <video autoplay id="video" class="camara"></video>
-                        <!--<canvas id="canvas" class="canvas" width="200" height="150"></canvas>-->
+                        <!---->
+                        <canvas id="canvas" class="canvas" width="598" height="298"></canvas>
                         
                     </div>
-                    
-                    
+                  
                 </div>
-                
-                <!--tercera columna-->
-                <!--<div class="col-4"></div>-->
+                <div class="col-3">
+                  
+                </div>
             </div>
             <!--fila-2-->
 
@@ -83,8 +88,10 @@
 
         </div>
 
-         <!--********* Boton Tomar Foto *********-->
-         <div class="button-tomar-foto">
+        <button type="button" id="boton" class="btn-none"></button>
+
+        <!--********* Boton Tomar Foto *********-->
+        <div class="button-tomar-foto">
             
             <button id="btnTomarFoto" class="btnTomarFoto">
                 <img src="img/boton2.png" alt="">
