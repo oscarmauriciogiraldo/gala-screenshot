@@ -32,61 +32,27 @@
         <!--
         <img src="./fondoScreenshot.png" id="img" style="display: none;">-->
 
-        
-        
-        <!--contenedor-GRID-->
-        <div class="container">
+        <div class="contenido-cam-vanv1">
 
-            <!--*******************grid 3X3******************-->
-            <!--fila-1
-            <div class="row ">
-                <div class="col-4">col-vacia</div>
-                <div class="col-4">col-vacia</div>
-                <div class="col-4">col-vacia</div>
-            </div>
-            -->
-
-            <!--fila-2-->
-            <!--<div class="row  fila-row">-->
-            <div class="row align-items-center">
-                <div class="col-3">
-                 
-                </div>
-                <div class="col-6 marco">
-
-                    <!--
-                    <div class="cont-canvas">
-                        <canvas id="canvas" class="canvas" ></canvas>
-                    </div>-->
-                    <div class="continfo">
-                        <!--camara-->
+           <div class="cont-cam">
+                <!--camara-->
+                
+                <video autoplay id="video" class="camara"></video>
+                <!--
+                <canvas id="canvas" class="canvas" width="598" height="298"></canvas>-->
                         
-                        <video autoplay id="video" class="camara"></video>
-                        <!---->
-                        <canvas id="canvas" class="canvas" width="598" height="298"></canvas>
-                        
-                    </div>
-                  
-                </div>
-                <div class="col-3">
-                  
-                </div>
             </div>
-            <!--fila-2-->
-
-            <!--fila-3
-            <div class="row fila-row">
-                <div class="col-4">col-vacia</div>
-                <div class="col-4">
-                    <button id="btnTomarFoto" class="btnTomarFoto">
-                        <img src="img/boton.png" alt="">
-                    </button>
-                </div>
-                <div class="col-4">col-vacia</div>
-            </div>
-            -->
 
         </div>
+        <div class="contenido-cam-vanv2">
+            <!---->
+            <div class="cont-canvas">
+                <canvas id="canvas" class="canvas" ></canvas>
+            </div>
+            
+        </div>
+        
+        
 
         <button type="button" id="boton" class="btn-none"></button>
 

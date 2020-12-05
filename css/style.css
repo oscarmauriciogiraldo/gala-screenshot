@@ -34,15 +34,32 @@ div[class|="col"]{
     position: relative;
 }*/
 
-.continfo {
-    /*position: absolute;*/
+.contenido-cam-vanv1{
+    /*top: 40%;*/
+    height: 25vh;
     position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px red;
+}
+
+.contenido-cam-vanv2{
+    /*top: 40%;*/
+    height: 75vh;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px red;
+}
+
+.cont-cam {
+    /*position: absolute;*/
+    position: absolute;
     /*top: 145px;
     right: 35vw;*/
-    width: 360px;
-    height: 310px;
+    width: 160px;
+    height: 110px;
     font-size: 20px;
     z-index: 2;
+    left: 40%;
 }
 
 /*
@@ -57,13 +74,32 @@ div[class|="col"]{
 }*/
 
 .camara {
-    /*position: left;*/
+    /*position: left;
     display: inline-block;
-    position: absolute;
+    position: absolute;*/
    
-    width: 598px;
+    /*width: 598px;
+    height: 298px;*/
+    width: 160px;
+    height: 110px;
+    
+    
+}
+
+.cont-canvas{
+    position: absolute;
+    margin-top: 10px;
+    left: 31.5%;
+}
+
+.canvas {
+    /*position: left;
+    display: inline-block;
+    position: absolute;*/
+   
+    width: 600px;
     height: 298px;
-    right: 5%;
+    
     
 }
 
