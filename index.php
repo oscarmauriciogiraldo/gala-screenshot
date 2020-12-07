@@ -47,7 +47,7 @@
         <div class="contenido-cam-vanv2">
             <!---->
             <div class="cont-canvas">
-                <canvas id="canvas" class="canvas" width="700" height="500"></canvas>
+                <canvas id="canvas" class="canvas" width="900" height="700"></canvas>
             </div>
             
         </div>
