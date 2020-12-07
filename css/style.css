@@ -106,9 +106,9 @@ div[class|="col"]{
     display: inline-block;*/
     flex-direction: column;
     display: flex;
-    /*
+    /**/
     width: 700px;
-    height: 300px;*/
+    height: 300px;
     
     
 }
