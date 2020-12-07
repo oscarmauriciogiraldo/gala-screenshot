@@ -101,10 +101,12 @@ div[class|="col"]{
 .canvas {
     /*position: left;
     display: inline-block;
-    position: absolute;*/
+    position: absolute;
     
-    display: inline-block;
-    width: 600px;
+    display: inline-block;*/
+    flex-direction: column;
+    display: flex;
+    width: 700px;
     height: 300px;
     
     
